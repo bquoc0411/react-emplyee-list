@@ -1,16 +1,14 @@
 import React from "react";
 import arr from "../../EmployeeData";
-import Header from "../../Header";
+import Header from "../Header";
 import Details from "./Details";
 import Info from "./Info";
-
-const icon = () => <i className="fa-solid fa-angle-left"></i>
 
 const RightPage = () => {
     return (
         <div className='col-lg-6 col-md-6'>
             <Header
-                icon={icon()}
+                icon={<i className="fa-solid fa-angle-left" />}
                 title='Employee'
             />
             <ul className='list-group'>
